@@ -1,0 +1,40 @@
+.br {
+  border: 2px solid #742626;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 10px;
+}
+
+.content {
+  background-color: rgb(255, 255, 255);
+  width: 1400px;
+  height: 80%;
+  display: flex;
+}
+
+.rightDesk {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  height: 60px;
+}
+
+main {
+  flex-grow: 1;
+}/*# sourceMappingURL=index.css.map */
